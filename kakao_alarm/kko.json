@@ -1,0 +1,82 @@
+/* 친구톡 2버튼, 1이미지 발송 */
+
+{
+	"msg_id" : "kko_ft_201707051130",
+	"send_time" : "",
+	"dest_phone" : "010-4584-3552",
+	"send_phone" : "01045843552",
+	"sender_key" : "d6b73318d4927aa80df1022e07fecf06c55b44bf",
+	"msg_body" : "친구톡 메시지 ~~~~~~",
+	"ad_flag" : "Y",
+	"button" :[
+	      {
+	        "name":"앱 링크 ^_^",
+	        "type":"AL",
+	        "scheme_android":"daumapps://open",
+	        "scheme_ios":"daumapps://open"
+	      },
+	      {
+	      	"name":"웹 링크 버튼요",
+	      	"type":"WL",
+	      	"url_pc":"http://bizmessage.kakao.com/",
+	      	"url_mobile":"http://bizmessage.kakao.com/"
+	      }
+	 ],
+	 "image":{
+	   "img_url":"http://mud-kage.kakao.com/dn/ihFWM/btqgIZSprL7/wvKQlhVKgcGh4Mw8ThNW81/img_l.jpg",
+	   "img_link":"http://www.lotte.com"
+	 }
+}
+
+/* 친구톡 텍스트 발송 */
+
+{
+	"msg_id" : "kko_ft_201707180000",
+	"send_time" : "",
+	"dest_phone" : "010-4584-3552",
+	"send_phone" : "01045843552",
+	"sender_key" : "d6b73318d4927aa80df1022e07fecf06c55b44bf",
+	"msg_body" : "친구톡 메시지 발송 테스트",
+	"ad_flag" : "N"
+}
+
+/* 알림톡 발송 */
+
+{
+	"msg_id" : "kko_nt_201707100900",
+	"send_time" : "",
+	"dest_phone" : "010-4584-3552",
+	"send_phone" : "01045843552",
+	"sender_key" : "94040debee2faf0734fbd5a200a1a73077869c12",
+	"template_code" : "alimtalktest_001",
+	"msg_body" : "[카카오뮤직] 회원가입 안내\r\n#{고객명}님, 카카오뮤직 회원이 되신 것을 환영합니다.\r\n\r\n▶신규 가입 회원 혜택\r\n#{1개월 무료 스트리밍 서비스 제공}\r\n{카카오톡 이모티콘 증정}"
+}
+
+/* 버븥톡 발송 */
+
+{
+  "msg_id" : "notice_gs",
+  "send_time" : "",
+  "dest_phone" : "01045843552",
+	"template_code" : "alimtalktest_008",
+	"send_phone" : "01045843552",
+	"sender_key" : "94040debee2faf0734fbd5a200a1a73077869c12",
+	"msg_body" : "[카카오쇼핑] 방송 알림 안내\r\n#{고객명} 고객님! 신청하신 상품의 방송 일정 안내 드립니다.\r\n\r\n#{프로그램명}\r\n#{방송예정일시}\r\n#{상품명}\r\n\r\n※ 방송 예정 일시는 상품이 편성된 프로그램 시간 기준으로, 여러 상품을 방송하는 프로그램의 경우 실제 방송과 시간 차이가 발생할 수 있습니다.",
+	"button" : [
+		{
+			"type" : "WL",
+			"name" : "미리 주문하기",
+			"url_mobile" : "http://www.kakao.com"
+		},
+		{
+			"type" : "MD",
+			"name" : "상담원 연결하기"
+		},
+		{
+			"type" : "AL",
+			"name" : "방송 알림 설정 보기",
+			"scheme_android" : "daumapps://open",
+			"scheme_ios" : "daumapps://open"
+		}
+	]
+}
